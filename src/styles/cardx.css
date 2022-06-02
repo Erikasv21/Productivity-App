@@ -1,0 +1,99 @@
+.card-content {
+  min-width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 8px 9px 5px 2px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 8px 9px 5px 2px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 8px 9px 5px 2px rgba(0, 0, 0, 0.22);
+}
+
+#card-content-id {
+  background: rgb(242, 156, 65);
+  color: #000;
+}
+
+#card-content-id2 {
+  background: rgb(0, 114, 2);
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+/* .card-text p {
+  color: #000;
+} */
+
+.card-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check,
+.edit,
+.clear {
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 8px;
+  margin-right: 3px;
+}
+
+.check:hover,
+.edit:hover,
+.clear:hover {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.check:hover {
+  color: rgb(2, 206, 2);
+}
+
+.edit:hover {
+  color: rgb(57, 54, 54);
+}
+
+.clear:hover {
+  color: rgb(255, 7, 7);
+}
+
+Button.btn-delete:hover {
+  border: 1px solid rgb(166, 94, 16);
+}
+
+.delete-button-container {
+  margin-left: 280px;
+}
+
+.no-items-container {
+  margin-top: 30px;
+}
+
+.no-items-text {
+  color: rgb(247, 168, 85);
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-content {
+    min-width: 350px;
+  }
+
+  .delete-button-container {
+    margin-left: 230px;
+  }
+
+  .no-items-text {
+    font-size: 20px;
+  }
+}
